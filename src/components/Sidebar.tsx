@@ -20,7 +20,7 @@ export function Sidebar(){
             <p className="title">Desenvolvedor João Vitor Angelo</p>
             <SocialNetworks />
             <InformationContainer />
-            <a href="meucurriculo.pdf" download="meucurriculo.pdf" className="btn">
+            <a href="/meucurriculo.pdf" download="meucurriculo.pdf" className="btn">
                 Download currículo
             </a>
         </aside>
