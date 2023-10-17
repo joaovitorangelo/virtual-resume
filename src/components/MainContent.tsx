@@ -6,12 +6,10 @@ import { TechnologiesContainer } from './TechnologiesContainer'
 
 export function MainContent(){
     return (
-        <main>
-            <div id="main-content">
-                <AboutContainer />
-                <TechnologiesContainer />
-                <ProjectsContainer />
-            </div>
+        <main id="main-content">
+            <AboutContainer />
+            <TechnologiesContainer />
+            <ProjectsContainer />
         </main>
     )
 }

@@ -1,5 +1,6 @@
 @use '../variables'
 @use '../mixins'
+@use '../keyframes'
 
 .technologies-container
     margin-bottom: 1rem
@@ -22,6 +23,7 @@
                 margin-bottom: 1rem
 
             svg
+                animation: svg-beat keyframes.$animation
                 font-size: 6rem
 
         #html
